@@ -37,13 +37,13 @@ char swVersion[] = "V0.6";
 #define Pyellow 3
 // MQTT and server stuff
 #define mqtt_port 1883   
-const char* mqtt_server = "mwau.webhop.me";
-#define MQTT_USER "student"
-#define MQTT_PASSWORD "smartsystems2020"
+const char* mqtt_server = "";
+#define MQTT_USER ""
+#define MQTT_PASSWORD ""
 #define MQTT_willTopic ""
 #define MQTT_willMessage ""
-char ssid[] = "TP-Link_E74F";
-char password[] = "39171566";
+char ssid[] = "";
+char password[] = "";
 // MAC Address to traffic light id
 #define NUMBER_OF_TL 15
 String mac2id[NUMBER_OF_TL][2] = { { String("24:62:AB:F1:E1:A0"), String("01") },
